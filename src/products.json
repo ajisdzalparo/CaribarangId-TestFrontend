@@ -1,0 +1,74 @@
+{
+  "product": {
+    "slider": [
+      { "path": "video.mp4" },
+      { "path": "product-variant-1.png" },
+      { "path": "product-variant-2.png" },
+      { "path": "product-variant-3.png" }
+    ],
+    "title": "27kids European And American Children's Clothing Summer New Products Boy Short Sleeve T-Shirt Wholesale Baby Clothes Manufacturers One Piece Consignment Sales",
+    "variants": [
+      {
+        "id": 0,
+        "image": "/src/assets/product-variant-2.png",
+        "item": [
+          {
+            "name": "Platinum Non-Glitter - 35",
+            "stock": 4109,
+            "price": 30000
+          },
+          {
+            "name": "Platinum Non-Glitter - 36",
+            "stock": 3200,
+            "price": 32000
+          },
+          {
+            "name": "Platinum Non-Glitter - 38",
+            "stock": 3200,
+            "price": 33000
+          },
+          {
+            "name": "Platinum Non-Glitter - 39",
+            "stock": 3200,
+            "price": 34000
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "image": "/src/assets/product-variant-3.png",
+        "item": [
+          {
+            "name": "Gold Glitter - 40",
+            "stock": 3120,
+            "price": 35000
+          },
+          {
+            "name": "Gold Glitter - 41",
+            "stock": 2900,
+            "price": 36000
+          }
+        ]
+      }
+    ],
+    "discount": [
+      { "min_order": 5, "price": 27965 },
+      { "min_order": 50, "price": 26790 },
+      { "min_order": 500, "price": 25380 }
+    ],
+    "desc": {
+      "supplier": "灵岛工厂批发",
+      "kategori": "Fashion Bayi & Anak",
+      "images": [
+        { "path": "desc_image1.png" },
+        { "path": "desc_image2.png" },
+        { "path": "desc_image1.png" },
+        { "path": "desc_image2.png" },
+        { "path": "desc_image3.png" }
+      ],
+      "berat": 0.3,
+      "ongkir": 10000,
+      "ongkir_to_indonesia": 30000
+    }
+  }
+}
