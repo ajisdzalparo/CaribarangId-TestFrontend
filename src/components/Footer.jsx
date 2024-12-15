@@ -64,12 +64,12 @@ export const Footer = () => {
               alt="Logo Company"
               className=" mb-8 lg:mb-10"
             />
-            <h3 className="text-xs lg:text-md font-bold mb-4">
+            <h3 className="text-xs lg:text-base font-bold mb-4">
               Layanan Pengaduan Konsumen
             </h3>
             {footerAddress.map((item, key) => (
-              <div key={key} className="mb-6 text-xs lg:text-md">
-                <h3 className="text-xs lg:text-md font-semibold mb-2">
+              <div key={key} className="mb-6 text-xs lg:text-base">
+                <h3 className="text-xs lg:text-base font-semibold mb-2">
                   {item.title}
                 </h3>
                 <p className="font-medium text-[#747474]">{item.content}</p>
@@ -82,10 +82,10 @@ export const Footer = () => {
             {FooterLink.map((item, key) => (
               <React.Fragment key={key}>
                 <div>
-                  <h3 className="text-xs lg:text-md font-bold mb-4">
+                  <h3 className="text-xs lg:text-base font-bold mb-4">
                     Caribarang
                   </h3>
-                  <ul className="space-y-2 text-xs lg:text-md">
+                  <ul className="space-y-2 text-xs lg:text-base">
                     {item.Link1.map((link, key) => (
                       <li key={key}>
                         <a
@@ -99,10 +99,10 @@ export const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-xs lg:text-md font-bold mb-4">
+                  <h3 className="text-xs lg:text-base font-bold mb-4">
                     Panduan dan Bantuan
                   </h3>
-                  <ul className="space-y-2 text-xs lg:text-md">
+                  <ul className="space-y-2 text-xs lg:text-base">
                     {item.Link2.map((link, key) => (
                       <li key={key}>
                         <a
