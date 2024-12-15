@@ -143,12 +143,9 @@ export const Footer = () => {
                 Metode Pembayaran
               </h3>
               {Bank.map((item, key) => (
-                <div
-                  key={key}
-                  className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start"
-                >
+                <div key={key} className="flex flex-col gap-4 items-start">
                   {/* Column 1 */}
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-6 items-center justify-center">
                     {item.Column1.map((bank, key) => (
                       <img
                         key={key}
@@ -160,7 +157,7 @@ export const Footer = () => {
                   </div>
 
                   {/* Column 2 */}
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 justify-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-6 items-center justify-center">
                     {item.Column2.map((bank, key) => (
                       <img
                         key={key}

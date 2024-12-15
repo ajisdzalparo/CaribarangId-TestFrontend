@@ -148,7 +148,10 @@ export const Navbar = () => {
           <ButtonPrimary label="Masuk" classes="hidden lg:flex" />
 
           {/* Mobile Menu Button */}
-          <button className="lg:hidden" onClick={toggleMenu}>
+          <button
+            className="lg:hidden px-3 py-3 hover:bg-primary-0 rounded-full hover:text-white"
+            onClick={toggleMenu}
+          >
             {isActive ? <Icon.X /> : <Icon.Menu />}
           </button>
         </div>
