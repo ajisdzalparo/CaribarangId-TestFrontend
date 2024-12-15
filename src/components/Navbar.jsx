@@ -149,7 +149,7 @@ export const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden px-3 py-3 hover:bg-primary-0 rounded-full hover:text-white"
+            className="lg:hidden px-3 py-3 hover:bg-primary-0 rounded-full hover:text-white transition-all ease-in-out duration-200"
             onClick={toggleMenu}
           >
             {isActive ? <Icon.X /> : <Icon.Menu />}
