@@ -56,21 +56,17 @@ export const InfoCard = (dataProduct) => {
               Deskripsi
             </h3>
             <div className="flex flex-col gap-2">
-              <span className="text-xs lg:text-base font-medium text-[#747474]">
-                Supplier :
-                <span className="font-normal text-[#2B2B2B] ml-1">
-                  灵岛工厂批发
-                </span>
+              <span className="text-md lg:text-lg font-normal text-[#2B2B2B] ml-1">
+                灵岛工厂批发
               </span>
-              <span className="text-base font-medium text-[#747474]">
+              {/* <span className="text-xs lg:text-base font-medium text-[#747474]">
+              </span> */}
+              <span className="text-xs lg:text-base font-medium text-[#747474]">
                 Kategori : Fashion Bayi & Anak
               </span>
             </div>
           </div>
           <div className="grid grid-[auto_1fr] gap-5 rounded-lg">
-            <h3 className="text-base font-medium text-[#171717]">
-              Deskripsi Produk
-            </h3>
             <div className="h-[650px] overflow-y-auto scrollbar-thin">
               {descImage.map((item, key) => (
                 <img
