@@ -167,7 +167,7 @@ export const Navbar = () => {
           <input
             className="w-full mb-4 p-2 text-sm border rounded-md outline-none"
             type="text"
-            placeholder="Search here..."
+            placeholder="Cari kata kunci atau copy link 1688.com"
           />
           <a href="#" className="py-2 text-gray-700">
             Wishlist
@@ -176,7 +176,7 @@ export const Navbar = () => {
             Cart
           </a>
           <a href="#" className="py-2 text-gray-700">
-            Login
+            Masuk
           </a>
         </div>
       </div>
